@@ -1,0 +1,38 @@
+[
+    {
+        "employee_name": "ashish",
+        "feedback_text": "he is hardwoker",
+        "timestamp": "2025-05-28 10:24:37",
+        "sentiment": "NEGATIVE"
+    },
+    {
+        "employee_name": "ashish",
+        "feedback_text": "he is nice co worker",
+        "timestamp": "2025-05-28 10:24:48",
+        "sentiment": "POSITIVE"
+    },
+    {
+        "employee_name": "ashish",
+        "feedback_text": "great person",
+        "timestamp": "2025-05-28 10:27:42",
+        "sentiment": "POSITIVE"
+    },
+    {
+        "employee_name": "ashish",
+        "feedback_text": "has a great knowledge about his subjects",
+        "timestamp": "2025-05-28 10:28:01",
+        "sentiment": "POSITIVE"
+    },
+    {
+        "employee_name": "ashish",
+        "feedback_text": "he is working proply",
+        "timestamp": "2025-05-28 10:32:10",
+        "sentiment": "POSITIVE"
+    },
+    {
+        "employee_name": "ashish",
+        "feedback_text": "hardowkrer wow",
+        "timestamp": "2025-06-02 10:31:55",
+        "sentiment": "POSITIVE"
+    }
+]

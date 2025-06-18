@@ -1,0 +1,182 @@
+[
+    {
+        "person": "2234",
+        "text": "he is a robber",
+        "sentiment_label": "Negative",
+        "compound_score": -0.5574
+    },
+    {
+        "person": "2234",
+        "text": "dope nigga",
+        "sentiment_label": "Neutral",
+        "compound_score": 0.0
+    },
+    {
+        "person": "2234",
+        "text": "he is a robot",
+        "sentiment_label": "Neutral",
+        "compound_score": 0.0
+    },
+    {
+        "person": "2234",
+        "text": "he is a dog",
+        "sentiment_label": "Negative",
+        "compound_score": -0.4019
+    },
+    {
+        "person": "2234",
+        "text": "he is a theif",
+        "sentiment_label": "Negative",
+        "compound_score": -0.4939
+    },
+    {
+        "person": "2234",
+        "text": "he is a kid",
+        "sentiment_label": "Neutral",
+        "compound_score": 0.0
+    },
+    {
+        "person": "2234",
+        "text": "he is best",
+        "sentiment_label": "Positive",
+        "compound_score": 0.6369
+    },
+    {
+        "person": "VASU",
+        "text": "he is good",
+        "sentiment_label": "Positive",
+        "compound_score": 0.4404
+    },
+    {
+        "person": "VASU",
+        "text": "he is angry",
+        "sentiment_label": "Positive",
+        "compound_score": 0.4767
+    },
+    {
+        "person": "VASU",
+        "text": "he is dumb",
+        "sentiment_label": "Negative",
+        "compound_score": -0.296
+    },
+    {
+        "person": "VASU",
+        "text": "he is topper",
+        "sentiment_label": "Negative",
+        "compound_score": -0.3182
+    },
+    {
+        "person": "VASU",
+        "text": "he is ok",
+        "sentiment_label": "Neutral",
+        "compound_score": 0.0
+    },
+    {
+        "person": "VASU",
+        "text": "he is right always",
+        "sentiment_label": "Positive",
+        "compound_score": 0.5719
+    },
+    {
+        "person": "VASU",
+        "text": "he is brother",
+        "sentiment_label": "Neutral",
+        "compound_score": 0.0
+    },
+    {
+        "person": "VASU",
+        "text": "he is best",
+        "sentiment_label": "Positive",
+        "compound_score": 0.6369
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is kind",
+        "sentiment_label": "Positive",
+        "compound_score": 0.3612
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is soft",
+        "sentiment_label": "Positive",
+        "compound_score": 0.3182
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is decent",
+        "sentiment_label": "Positive",
+        "compound_score": 0.3182
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is dumb",
+        "sentiment_label": "Negative",
+        "compound_score": -0.296
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is average",
+        "sentiment_label": "Neutral",
+        "compound_score": 0.0
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is funny",
+        "sentiment_label": "Positive",
+        "compound_score": 0.4215
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is best",
+        "sentiment_label": "Positive",
+        "compound_score": 0.6369
+    },
+    {
+        "person": "ASHISH",
+        "text": "he is greatest",
+        "sentiment_label": "Positive",
+        "compound_score": 0.6369
+    },
+    {
+        "person": "BHANU",
+        "text": "he is boring",
+        "sentiment_label": "Negative",
+        "compound_score": -0.4767
+    },
+    {
+        "person": "BHANU",
+        "text": "he is okish",
+        "sentiment_label": "Neutral",
+        "compound_score": 0.0
+    },
+    {
+        "person": "BHANU",
+        "text": "he is decent",
+        "sentiment_label": "Positive",
+        "compound_score": 0.3182
+    },
+    {
+        "person": "BHANU",
+        "text": "he is great",
+        "sentiment_label": "Positive",
+        "compound_score": 0.6249
+    },
+    {
+        "person": "BHANU",
+        "text": "he is weird",
+        "sentiment_label": "Negative",
+        "compound_score": -0.25
+    },
+    {
+        "person": "BHANU",
+        "text": "he is aggresive",
+        "sentiment_label": "Negative",
+        "compound_score": -0.3818
+    },
+    {
+        "person": "BHANU",
+        "text": "he is best",
+        "sentiment_label": "Positive",
+        "compound_score": 0.6369
+    }
+]
