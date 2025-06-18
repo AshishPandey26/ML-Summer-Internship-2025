@@ -1,0 +1,49 @@
+#run in colab only vs mein nhi chal rha
+
+import moviepy.editor as mp
+import speech_recognition as sr
+import os
+
+def extract_audio_from_video(video_path, audio_path="temp_audio.wav"):
+    video = mp.VideoFileClip(video_path)
+    video.audio.write_audiofile(audio_path)
+    return audio_path
+
+def transcribe_audio_to_text(audio_path):
+    recognizer = sr.Recognizer()
+    with sr.AudioFile(audio_path) as source:
+        audio_data = recognizer.record(source)
+        try:
+            text = recognizer.recognize_google(audio_data)
+            return text
+        except sr.UnknownValueError:
+            return "Speech Recognition could not understand audio."
+        except sr.RequestError as e:
+            return f"Could not request results; {e}"
+
+def save_text_to_file(text, filename="transcript.txt"):
+    with open(filename, "w", encoding="utf-8") as file:
+        file.write(text)
+
+def main():
+    video_path = "/content/sample_video.mp4"  # <-- Replace with your video file path
+    audio_path = "temp_audio.wav"
+    transcript_file = "output_transcript.txt"
+
+    print("Extracting audio from video...")
+    extract_audio_from_video(video_path, audio_path)
+
+    print("Transcribing audio to text...")
+    text = transcribe_audio_to_text(audio_path)
+
+    print(f"Saving transcript to '{transcript_file}'")
+    save_text_to_file(text, transcript_file)
+
+    # Clean up temporary audio file
+    if os.path.exists(audio_path):
+        os.remove(audio_path)
+
+    print("Done!")
+
+if __name__ == "__main__":
+    main()

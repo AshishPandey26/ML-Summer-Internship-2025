@@ -1,0 +1,42 @@
+import moviepy.editor as mp
+import speech_recognition as sr
+import os
+
+def extract_audio_from_video(video_path, audio_path="sample_video.mp4"):
+    # Load video file and extract audio
+    video = mp.VideoFileClip(video_path)
+    video.audio.write_audiofile(audio_path)
+    return audio_path
+
+def transcribe_audio_to_text(audio_path):
+    recognizer = sr.Recognizer()
+    with sr.AudioFile(audio_path) as source:
+        audio_data = recognizer.record(source)
+        try:
+            # You can change 'recognize_google' to another engine if needed
+            text = recognizer.recognize_google(audio_data)
+            return text
+        except sr.UnknownValueError:
+            return "Speech Recognition could not understand audio."
+        except sr.RequestError as e:
+            return f"Could not request results; {e}"
+
+def main():
+    video_path = "your_video.mp4"  # Change this to your file path
+    audio_path = "temp_audio.wav"
+
+    print("Extracting audio...")
+    extract_audio_from_video(video_path, audio_path)
+
+    print("Transcribing audio to text...")
+    text = transcribe_audio_to_text(audio_path)
+
+    print("\n--- Transcribed Text ---\n")
+    print(text)
+
+    # Clean up
+    if os.path.exists(audio_path):
+        os.remove(audio_path)
+
+if __name__ == "__main__":
+    main()
