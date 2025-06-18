@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Internship-ML-blueviolet?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Projects-9-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Coffee-Overdosed-ff69b4?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Hardwork-Overdosed-ff69b4?style=for-the-badge"/>
 </div>
 
 ---
@@ -25,16 +25,14 @@ I didn’t just follow tutorials—I solved problems, Googled like a maniac, bro
 ## 🚀 Projects Overview
 
 | # | Project Title | Tech Stack | Description |
-|--|---------------|------------|-------------|
-| 1 | [Interactive Sales Dashboard](./project-1-dashboard) | `Streamlit`, `Pandas` | Visualized and filtered complex datasets through a custom dashboard |
-| 2 | [Data Cleaning & Outlier Detection](./project-2-data-cleaning) | `NumPy`, `Pandas`, `Seaborn` | Identified anomalies & cleaned noisy datasets |
-| 3 | [Exploratory Data Analysis (EDA)](./project-3-eda) | `Matplotlib`, `Seaborn` | Performed insights discovery from raw datasets |
-| 4 | [Model Training & Accuracy Tuning](./project-4-model-training) | `Scikit-learn` | Trained ML models & optimized their performance |
-| 5 | [Real-time Prediction App](./project-5-realtime-app) | `Streamlit`, `Sklearn` | Built an ML-powered app for live predictions |
-| 6 | [CSV to Dashboard Auto-Tool](./project-6-csv-tool) | `Streamlit`, `Plotly` | Turned raw CSV into instant dashboard |
-| 7 | [Correlation Matrix Analyzer](./project-7-corr-matrix) | `Pandas`, `Seaborn` | Auto-generates correlation heatmaps |
-| 8 | [Data Preprocessing Engine](./project-8-preprocessing) | `Sklearn`, `Pandas` | Built reusable pipelines for preprocessing |
-| 9 | [Regression Model Comparison](./project-9-regression) | `Linear Regression`, `SVR`, `DecisionTree` | Compared model performance side-by-side |
+|--|------------------------------|------------|-------------|
+| 1 | [Face Recognition](./Face_Recognizition) | `OpenCV`, `dlib`, `face_recognition` | Detected and identified faces from live webcam feed using facial embeddings |
+| 2 | [Virtual Keyboard with Finger Gestures](./Virtual%20Keyboard%20typing%20using%20finger%20gestures) | `Python`, `OpenCV`, `CVZone` | Built a virtual keyboard interface controlled using hand gestures (no physical keyboard needed) |
+| 3 | [Number Plate Detection](./Number_Plate_Detection) | `OpenCV`, `EasyOCR`, `NumPy` | Automatically detected and extracted text from number plates using OCR |
+| 4 | [Image Searcher](./Image-Searcher) | `Tkinter`, `Pillow`, `Python` | Developed a GUI tool that searches for images using user-defined filters |
+| 5 | [Python ChatBot](./Python_ChatBot) | `NLTK`, `Python`, `Tkinter` | Created a basic chatbot with pattern matching and GUI interface |
+| 6 | [Chat with PDF](./Chat-with-PDF) | `LangChain`, `Gemini API`, `PyPDF2` | Used LLMs to extract answers from uploaded PDFs and interact with documents |
+| 7 | [Employee Feedback Sentiment Model](./Employee%20Feedback%20Model%20using%20Sentiment%20Analysis) | `TextBlob`, `Pandas`, `Matplotlib` | Analyzed sentiment of employee feedback and visualized insights |
 
 ---
 
