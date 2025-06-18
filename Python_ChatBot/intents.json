@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there", "Hello", "Hey", "Hola", "Good day",
+        "How are you?", "Is anyone there?", "Hi", "Hey there", "Greetings"
+      ],
+      "responses": [
+        "Hello!", "Hi there, how can I help you?", "Hey! What can I do for you?",
+        "Greetings! Need any assistance?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Catch you later",
+        "Nice chatting with you", "Till next time", "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Take care.", "See you soon!", "It was great talking to you. Bye!",
+        "Have a nice day!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks", "Thank you", "Thanks a lot", "Much appreciated",
+        "That's helpful", "Awesome, thanks", "Thanks for helping me"
+      ],
+      "responses": [
+        "You're welcome!", "Glad I could help!", "No problem!", "Anytime!", "My pleasure!"
+      ]
+    },
+    {
+      "tag": "cs_facts_jokes",
+      "patterns": [
+        "Tell me a CS joke", "Got any programming jokes?", "Tell me a computer fact",
+        "Say something geeky", "Share a tech fact", "Entertain me with code stuff"
+      ],
+      "responses": [
+        "Why do programmers always mix up Christmas and Halloween? Because Oct 31 == Dec 25.",
+        "A programmer's wife tells him: 'Go to the store and get a loaf of bread. If they have eggs, get a dozen.' He comes back with 12 loaves of bread.",
+        "There are only 10 kinds of people in this world: those who understand binary and those who don’t.",
+        "The first computer bug was an actual bug — a moth stuck in a Harvard Mark II computer in 1947.",
+        "Python was named after Monty Python, not the snake.",
+        "Recursion: see Recursion.",
+        "Debugging is like being the detective in a crime movie where you are also the murderer."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I don't understand that.",
+        "Can you please rephrase?",
+        "I'm not sure I got that. Could you try asking differently?"
+      ]
+    }
+  ]
+}
