@@ -1,7 +1,7 @@
 <h1 align="center">🧠 ML Internship Projects (Summer '25)</h1>
 
 <p align="center">
-  <b>9 Projects. 10+ Tasks. 1 Hungry Mind.</b><br>
+  <b>7 Projects. 10+ Tasks. 1 Hungry Mind.</b><br>
   Built with 💻 Python, 🤖 Machine Learning, 📊 Streamlit, and 🧪 Sleepless Debugging.
 </p>
 
