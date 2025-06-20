@@ -47,6 +47,13 @@ I didn’t just follow tutorials—I solved problems, Googled like a maniac, bro
 ## 🔍 Some Screenshots 
 ![image](https://github.com/user-attachments/assets/b8ed1689-9458-46b2-a516-c3b36c535d84)
 
+![image](https://github.com/user-attachments/assets/4140caac-f5d2-4c6c-be91-94c4f7ab3759)
+
+![image](https://github.com/user-attachments/assets/f5b101ed-0c1b-4dcd-b099-8c7e155bf0e6)
+ 
+... stay tunedfor more updates
+
+
 
 
 ## 💬 Wanna Collaborate or Chat?
