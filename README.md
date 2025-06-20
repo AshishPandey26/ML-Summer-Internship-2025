@@ -44,6 +44,9 @@ I didn’t just follow tutorials—I solved problems, Googled like a maniac, bro
 
 ---
 
+## 🔍 Some Screenshots 
+![image](https://github.com/user-attachments/assets/b8ed1689-9458-46b2-a516-c3b36c535d84)
+
 
 
 ## 💬 Wanna Collaborate or Chat?
