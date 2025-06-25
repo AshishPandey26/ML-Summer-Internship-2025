@@ -8,7 +8,7 @@
 <div align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Internship-ML-blueviolet?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Projects-9-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Projects-7-blue?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Hardwork-Overdosed-ff69b4?style=for-the-badge"/>
 </div>
 
@@ -16,7 +16,7 @@
 
 ## 🔍 About
 Over the summer of 2025, I worked as an intern on a Machine Learning journey where I tackled real-world problems through structured tasks and projects.  
-This repo showcases all 9 projects I completed—ranging from data preprocessing to dashboard creation, model building, and more.
+This repo showcases all 7 projects I completed—ranging from data preprocessing to dashboard creation, model building, and more.
 
 I didn’t just follow tutorials—I solved problems, Googled like a maniac, broke things, fixed them again, and learned what it means to *build*.
 
